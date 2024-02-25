@@ -1,0 +1,1 @@
+let topTriggerButton = document.getElementById('top_trigger_button');
