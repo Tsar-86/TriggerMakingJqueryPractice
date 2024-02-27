@@ -82,6 +82,31 @@ h3 {
     margin-top: 10px;
 }
 
+.first_section_button_list {
+    display: none;
+    background-color: rgb(243, 241, 241);
+    width: 349px;
+    height: 55px;
+    border: 1px solid black;
+}
+
+.first_section_button_list > .first_section_button_text {
+    margin: 7px;
+    font-size: 14px ;
+}
+
+.first_text {
+
+}
+
+.second_text {
+    /* display: none; */
+}
+
+.third_text {
+    /* display: none; */
+}
+
 .second_section {
     display: flex;
     flex-direction: column;
