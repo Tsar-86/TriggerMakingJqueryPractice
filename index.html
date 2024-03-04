@@ -26,12 +26,13 @@
             <div class="distribution_type">
                 <h3>Choose type distribution</h3>
                 <button class="first_section_button distribution_type_list hidden-content">
-                    <p class="distribution_type_button_text">Take turns without schedule count</p>
+                    <p class="distribution_type_button_text">Set workload percentage</p>
+                    
                     <p class="button_arrow"></p>
                 </button>
                 <div class="distribution_type_button_list">  
                     <p class="distribution_type_button_text text_list">Take turns with schedule count</p>
-                    <p class="distribution_type_button_text text_list">Set workload percentage</p>
+                    <p class="distribution_type_button_text text_list">Take turns without schedule count</p>
                 </div>
             </div>
             <div class="managers_distribution">
@@ -40,13 +41,23 @@
                     <p class="managers_distribution_button_text">Choose managers</p>
                     <p class="button_arrow"></p>
                 </button>
-                <div class="managers_distribution_button_list">  
+                <!-- <div class="managers_distribution_button_list">  
                     <p class="managers_distribution_button_text text_list">First user</p>
                     <p class="managers_distribution_button_text text_list">Second user</p>
-                </div>
+                </div> -->
             </div>
         </div>
-        
+        <div class="percentage_distribution_section">
+            <h4 id='percentage_distribution_section_text'>Choose persentage for distribution</h4>
+            <div class="percentage_distribution_by_manager">
+                <p class="manager_name">First user</p>
+                <P class="manager_percent">0</P>
+            </div>
+            <div class="percentage_distribution_by_manager">
+                <p class="manager_name">Second user</p>
+                <P class="manager_percent">0</P>
+            </div>
+        </div>
         <div class="second_section">
             <div class="checkbox_container">
                 <input type="checkbox" class="second_section_checkbox"> 

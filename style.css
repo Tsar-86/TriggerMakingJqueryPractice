@@ -19,7 +19,7 @@ h3 {
     flex-direction: column;
     background-color: #f3f3f3;
     width: 400px;
-    height: 400px;
+    height: 450px;
     border-radius: 10px;
 }
 
@@ -106,6 +106,47 @@ h3 {
 .managers_distribution_button_list > .managers_distribution_button_text {
     margin: 7px;
     font-size: 14px ;
+}
+
+.percentage_distribution_section {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#percentage_distribution_section_text {
+    justify-content: center;
+    margin: 0px 20px 10px;
+    font-weight: 400;
+}
+
+.percentage_distribution_by_manager {
+    display: flex;
+    width: 310px;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.manager_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b6b7b8;
+    border: 1px solid #000;
+    width: 150px;
+    height: 25px;
+    margin: 0;
+}
+
+.manager_percent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b6b7b8;
+    border: 1px solid #000;
+    width: 100px;
+    height: 25px;
+    margin: 0; 
 }
 
 .second_section {
